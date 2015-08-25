@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="df5b5bdec9c647eb87c0a2f1f3c90a72" Name="Diagram1">
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Author" Width="1.5" PointX="3" PointY="11.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.AuthorBook" Width="1.5" PointX="5.25" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Book" Width="1.5" PointX="3" PointY="15.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Country" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Image" Width="1.5" PointX="0.75" PointY="15.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Location" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Member" Width="1.5" PointX="8.25" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Publisher" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Reader" Width="1.5" PointX="6" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.Status" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Bookera.Data.Repository.User" Width="1.5" PointX="6" PointY="10.5" IsExpanded="true" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_AuthorBook_Author" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_AuthorBook_Book" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_AuthorBook_Publisher" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Book_Image" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Location_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Publisher_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Reader_Country" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Member_Reader" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Member_User" ManuallyRouted="false" />
+        <AssociationConnector Association="Bookera.Data.Repository.FK_Reader_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
