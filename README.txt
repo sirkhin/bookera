@@ -1,1 +1,0 @@
-This is the Bookera project. Copyright by someone.
